@@ -35,13 +35,13 @@
   body::before {
     top: -10%;
     left: -10%;
-    background: #5b21b6; /* purple-800 */
+    background: #1e40af; /* blue-800 */
   }
 
   body::after {
     bottom: -10%;
     right: -10%;
-    background: #8b5cf6; /* purple-500 */
+    background: #2563eb; /* blue-600 */
   }
 
   html.dark body {
@@ -50,7 +50,7 @@
   }
   
   h1, h2, h3 {
-    color: #89b4fa;
+    color: #60a5fa; /* blue-400 */
   }
   
   pre, code {

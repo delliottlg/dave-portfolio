@@ -16,9 +16,9 @@ export default function Projects() {
 
         <Card>
           <CardContent>
-            <h3 className="text-lg font-semibold">AAC Test Automation Suite</h3>
+            <h3 className="text-lg font-semibold">CloudSync Analytics Dashboard</h3>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-              Unity-based regression test system for AAC devices.
+              Real-time data visualization platform built with React and D3.js for monitoring cloud infrastructure metrics.
             </p>
             <Link href="#" className="underline text-accent">
               GitHub
@@ -28,33 +28,33 @@ export default function Projects() {
 
         <Card>
           <CardContent>
-            <h3 className="text-lg font-semibold">Unity VR AAC Interface</h3>
+            <h3 className="text-lg font-semibold">TaskFlow Pro</h3>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-              Prototype VR communication interface.
+              AI-powered project management tool with natural language processing for automated task categorization.
             </p>
             <Link href="#" className="underline text-accent">
-              Demo
+              Live Demo
             </Link>
           </CardContent>
         </Card>
 
         <Card>
           <CardContent>
-            <h3 className="text-lg font-semibold">Smart Glasses Companion</h3>
+            <h3 className="text-lg font-semibold">SecureVault API</h3>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-              AI-powered companion app for wearable displays.
+              RESTful API service with end-to-end encryption for secure document storage and sharing.
             </p>
             <Link href="#" className="underline text-accent">
-              GitHub
+              Documentation
             </Link>
           </CardContent>
         </Card>
 
         <Card>
           <CardContent>
-            <h3 className="text-lg font-semibold">QA Test Management App</h3>
+            <h3 className="text-lg font-semibold">DevMetrics CLI</h3>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-              Web interface for tracking QA tests.
+              Command-line tool for tracking developer productivity metrics and generating team performance reports.
             </p>
             <Link href="#" className="underline text-accent">
               GitHub

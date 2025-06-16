@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         "code-bg": "#1e1e2f",
         "card-border": "#2a2a3b",
-        accent: "#89b4fa",
+        accent: "#8b5cf6", // purple-500 for highlights
+        primary: "#3b82f6", // blue-500 for main elements
       },
       borderRadius: { 
         xl: "1rem" 
