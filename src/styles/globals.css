@@ -11,36 +11,37 @@
     font-family: 'JetBrains Mono', monospace;
     min-height: 100vh;
     position: relative;
-    background: linear-gradient(to bottom right, #0f172a, #1e293b);
+    background: linear-gradient(to bottom right, #0f0f1b, #111118);
     background-attachment: fixed;
     color: white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   body::before,
   body::after {
     content: "";
     position: fixed;
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
     border-radius: 50%;
-    transform: translate(-50%, -50%);
-    filter: blur(80px);
+    filter: blur(100px);
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.65;
+    pointer-events: none;
   }
 
   body::before {
-    top: 20%;
-    left: 25%;
-    background: #818cf8; /* indigo-400 */
+    top: -10%;
+    left: -10%;
+    background: #5b21b6; /* purple-800 */
   }
 
   body::after {
-    bottom: 10%;
-    right: 20%;
-    background: #7e22ce; /* purple-700 */
+    bottom: -10%;
+    right: -10%;
+    background: #8b5cf6; /* purple-500 */
   }
 
   html.dark body {
