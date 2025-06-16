@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    min-height: 100vh;
+    background: white;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html.dark body {
+    background: linear-gradient(to bottom right, #0f0f1b, #111118);
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  h1, h2, h3 {
+    color: #89b4fa;
+  }
+  
+  pre, code {
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow: auto;
+  }
+}
+
+/* Ensure backdrop support */
+@supports (backdrop-filter: blur(0px)) {
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+/* Glass effect utility classes */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .dark .glass {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(42, 42, 59, 1);
+  }
+
+  .glass-hover:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .dark .glass-hover:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
