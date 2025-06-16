@@ -20,6 +20,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       return (
         <Link
           className={`${baseStyle} ${variants[variant]} ${className}`}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           {...(props as any)}
         />
       );
