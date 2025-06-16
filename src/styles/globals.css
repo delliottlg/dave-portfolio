@@ -40,7 +40,7 @@
   body::after {
     bottom: 10%;
     right: 20%;
-    background: #f472b6; /* pink-400 */
+    background: #7e22ce; /* purple-700 */
   }
 
   html.dark body {
