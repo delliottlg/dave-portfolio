@@ -2,13 +2,15 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Layout from "@/components/layout";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-6 md:p-12 lg:p-24">
+    <Layout>
+      <main className="relative z-10 min-h-screen p-6 md:p-12 lg:p-24">
       <section className="max-w-3xl mx-auto space-y-6">
-        <h1 className="text-4xl font-bold">Hi, I'm Dave Elliott</h1>
+        <h1 className="text-4xl font-bold">Hi, I&apos;m Dave Elliott</h1>
         <p className="text-lg">
           Developer and technologist focused on automation, AI, and accessible technology. I build tools that help people communicate and organizations move faster.
         </p>
@@ -63,7 +65,7 @@ export default function Home() {
       <section className="mt-24 max-w-3xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4">How I Can Help</h2>
         <p className="text-lg text-gray-800 dark:text-gray-200">
-          Whether you're a small business looking to modernize or a larger org seeking efficient ways to scale, I can help you:
+          Whether you&apos;re a small business looking to modernize or a larger org seeking efficient ways to scale, I can help you:
         </p>
         <ul className="list-disc list-inside mt-4 space-y-2 text-gray-700 dark:text-gray-300">
           <li>Automate repetitive tasks using AI and scripts to save time and reduce errors</li>
@@ -73,7 +75,7 @@ export default function Home() {
           <li>Use digital tools to streamline communication, training, or onboarding</li>
         </ul>
         <p className="mt-4 text-gray-800 dark:text-gray-200">
-          Let's talk about how smart tools and thoughtful design can expand your business.
+          Let&apos;s talk about how smart tools and thoughtful design can expand your business.
         </p>
       </section>
 
@@ -89,7 +91,7 @@ export default function Home() {
           <li>Reducing regression risk with intelligent, adaptive test suites</li>
         </ul>
         <p className="mt-4 text-gray-800 dark:text-gray-200">
-          I've helped teams build better products faster by combining traditional software testing with the emerging power of AI. Ask me how.
+          I&apos;ve helped teams build better products faster by combining traditional software testing with the emerging power of AI. Ask me how.
         </p>
       </section>
 
@@ -105,9 +107,10 @@ export default function Home() {
           <li><strong>ChattyData:</strong> Lightweight voice-activated assistant for running simple pandas or numpy-based data queries out loud</li>
         </ul>
         <p className="mt-4 text-gray-800 dark:text-gray-200">
-          These are all real prototypes in various stages — some already work, some just need love. Reach out if you're interested in collaborating or funding fun ideas.
+          These are all real prototypes in various stages — some already work, some just need love. Reach out if you&apos;re interested in collaborating or funding fun ideas.
         </p>
       </section>
     </main>
+    </Layout>
   );
 }
