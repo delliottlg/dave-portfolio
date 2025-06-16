@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-6 md:p-12 lg:p-24">
+    <main className="relative z-10 min-h-screen p-6 md:p-12 lg:p-24">
       <section className="max-w-3xl mx-auto space-y-6">
         <h1 className="text-4xl font-bold">Hi, I'm Dave Elliott</h1>
         <p className="text-lg">
