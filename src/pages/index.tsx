@@ -196,6 +196,7 @@ export default function Home() {
                 </CardContent>
               </Card>
             </Link>
+          </div>
         </div>
       </section>
 
