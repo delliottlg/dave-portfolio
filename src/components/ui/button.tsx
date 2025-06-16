@@ -17,13 +17,11 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     };
 
     if (asChild) {
-      return (
-        <Link
-          className={`${baseStyle} ${variants[variant]} ${className}`}
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          {...(props as any)}
-        />
-      );
+      const { children, ...restProps } = props;
+      return React.cloneElement(children as React.ReactElement, {
+        className: `${baseStyle} ${variants[variant]} ${className}`,
+        ...restProps
+      });
     }
 
     return (
