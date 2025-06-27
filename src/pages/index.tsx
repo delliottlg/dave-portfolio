@@ -16,7 +16,7 @@ export default function Home() {
           <div className="space-y-8">
             {/* Premium subtitle */}
             <p className="text-sm font-light tracking-[0.3em] text-gray-500 uppercase">
-              Senior AI/ML Engineer & Technical Architect
+              Full Stack Developer & Software Engineer
             </p>
             
             {/* Main title with premium typography */}
@@ -27,9 +27,9 @@ export default function Home() {
             
             {/* Sophisticated tagline */}
             <p className="text-xl md:text-2xl font-light text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              Architecting intelligent systems that redefine human-computer interaction. 
+              Building modern web applications with clean code and thoughtful design. 
               <span className="block mt-2 text-lg text-gray-500">
-                15+ years transforming Fortune 500 operations through AI innovation.
+                Passionate about creating intuitive user experiences and scalable solutions.
               </span>
             </p>
             
@@ -82,16 +82,16 @@ export default function Home() {
                     <span className="text-xs text-gray-600">2024</span>
                   </div>
                   
-                  <h3 className="text-2xl font-light text-white mb-3">Neural Analytics Platform</h3>
+                  <h3 className="text-2xl font-light text-white mb-3">E-Commerce Dashboard</h3>
                   <p className="text-gray-400 font-light leading-relaxed mb-6">
-                    Enterprise-scale ML pipeline processing 100M+ daily events. Reduced decision latency by 87% for Fortune 100 client.
+                    Full-stack analytics dashboard for online retailers. Real-time sales tracking and inventory management.
                   </p>
                   
                   <div className="flex items-center justify-between">
                     <div className="flex gap-3">
-                      <span className="text-xs text-gray-600">TensorFlow</span>
-                      <span className="text-xs text-gray-600">Kubernetes</span>
                       <span className="text-xs text-gray-600">React</span>
+                      <span className="text-xs text-gray-600">Node.js</span>
+                      <span className="text-xs text-gray-600">MongoDB</span>
                     </div>
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -114,16 +114,16 @@ export default function Home() {
                     <span className="text-xs text-gray-600">2024</span>
                   </div>
                   
-                  <h3 className="text-2xl font-light text-white mb-3">Quantum Language Model</h3>
+                  <h3 className="text-2xl font-light text-white mb-3">Task Management App</h3>
                   <p className="text-gray-400 font-light leading-relaxed mb-6">
-                    Next-gen NLP architecture achieving 94.2% accuracy on complex reasoning tasks. Patent pending.
+                    Collaborative project management tool with real-time updates and team communication features.
                   </p>
                   
                   <div className="flex items-center justify-between">
                     <div className="flex gap-3">
-                      <span className="text-xs text-gray-600">PyTorch</span>
-                      <span className="text-xs text-gray-600">CUDA</span>
-                      <span className="text-xs text-gray-600">Rust</span>
+                      <span className="text-xs text-gray-600">Next.js</span>
+                      <span className="text-xs text-gray-600">PostgreSQL</span>
+                      <span className="text-xs text-gray-600">TypeScript</span>
                     </div>
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -146,16 +146,16 @@ export default function Home() {
                     <span className="text-xs text-gray-600">2023</span>
                   </div>
                   
-                  <h3 className="text-2xl font-light text-white mb-3">Zero-Trust Infrastructure</h3>
+                  <h3 className="text-2xl font-light text-white mb-3">Weather Forecast App</h3>
                   <p className="text-gray-400 font-light leading-relaxed mb-6">
-                    Military-grade security framework processing $2B+ in daily transactions with 99.999% uptime.
+                    Clean, modern weather application with location-based forecasts and interactive weather maps.
                   </p>
                   
                   <div className="flex items-center justify-between">
                     <div className="flex gap-3">
-                      <span className="text-xs text-gray-600">Go</span>
-                      <span className="text-xs text-gray-600">Blockchain</span>
-                      <span className="text-xs text-gray-600">AWS</span>
+                      <span className="text-xs text-gray-600">React</span>
+                      <span className="text-xs text-gray-600">API Integration</span>
+                      <span className="text-xs text-gray-600">Tailwind</span>
                     </div>
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -178,16 +178,16 @@ export default function Home() {
                     <span className="text-xs text-gray-600">2023</span>
                   </div>
                   
-                  <h3 className="text-2xl font-light text-white mb-3">Real-time Vision AI</h3>
+                  <h3 className="text-2xl font-light text-white mb-3">Blog Platform</h3>
                   <p className="text-gray-400 font-light leading-relaxed mb-6">
-                    Edge computing solution for autonomous systems. Sub-10ms inference on embedded hardware.
+                    Modern blogging platform with markdown support, SEO optimization, and responsive design.
                   </p>
                   
                   <div className="flex items-center justify-between">
                     <div className="flex gap-3">
-                      <span className="text-xs text-gray-600">C++</span>
-                      <span className="text-xs text-gray-600">CUDA</span>
-                      <span className="text-xs text-gray-600">OpenCV</span>
+                      <span className="text-xs text-gray-600">Next.js</span>
+                      <span className="text-xs text-gray-600">MDX</span>
+                      <span className="text-xs text-gray-600">Vercel</span>
                     </div>
                     <svg className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -205,39 +205,39 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl">
             <p className="text-sm font-light tracking-[0.3em] text-gray-500 uppercase mb-4">Services</p>
-            <h2 className="text-5xl md:text-6xl font-extralight text-white mb-12">How I Drive Impact</h2>
+            <h2 className="text-5xl md:text-6xl font-extralight text-white mb-12">What I Offer</h2>
             
             <div className="space-y-16">
               <div className="group">
                 <h3 className="text-2xl font-light text-white mb-4 flex items-center">
                   <span className="w-8 h-[1px] bg-gray-700 mr-4"></span>
-                  AI Architecture & Strategy
+                  Full Stack Development
                 </h3>
                 <p className="text-gray-400 font-light leading-relaxed ml-12">
-                  Design and implement enterprise AI systems that scale. From proof-of-concept to production, 
-                  I architect solutions that deliver measurable ROI within 90 days.
+                  End-to-end web application development using modern frameworks and best practices. 
+                  From responsive frontends to scalable backends, I build solutions that work.
                 </p>
               </div>
               
               <div className="group">
                 <h3 className="text-2xl font-light text-white mb-4 flex items-center">
                   <span className="w-8 h-[1px] bg-gray-700 mr-4"></span>
-                  Intelligent Automation
+                  UI/UX Design
                 </h3>
                 <p className="text-gray-400 font-light leading-relaxed ml-12">
-                  Transform manual processes into self-optimizing systems. Specializing in ML pipelines 
-                  that learn and adapt to your business patterns over time.
+                  Creating intuitive and visually appealing user interfaces. Focus on usability, 
+                  accessibility, and modern design principles to enhance user experience.
                 </p>
               </div>
               
               <div className="group">
                 <h3 className="text-2xl font-light text-white mb-4 flex items-center">
                   <span className="w-8 h-[1px] bg-gray-700 mr-4"></span>
-                  Technical Leadership
+                  API Development
                 </h3>
                 <p className="text-gray-400 font-light leading-relaxed ml-12">
-                  Guide teams through complex technical transformations. From architecture reviews to 
-                  hands-on implementation, I ensure your vision becomes reality.
+                  Building robust RESTful APIs and integrating third-party services. 
+                  Ensuring secure, efficient data flow between applications and services.
                 </p>
               </div>
             </div>
@@ -251,10 +251,10 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-20">
             <div>
               <p className="text-sm font-light tracking-[0.3em] text-gray-500 uppercase mb-4">Expertise</p>
-              <h2 className="text-5xl md:text-6xl font-extralight text-white mb-8">Technical Excellence</h2>
+              <h2 className="text-5xl md:text-6xl font-extralight text-white mb-8">Technical Skills</h2>
               <p className="text-gray-400 font-light leading-relaxed">
-                Deep expertise across the entire AI/ML stack, from research to production deployment. 
-                I bridge the gap between cutting-edge innovation and practical business solutions.
+                Proficient in modern web development technologies and tools. 
+                I focus on writing clean, maintainable code and delivering quality solutions.
               </p>
             </div>
             
@@ -262,22 +262,22 @@ export default function Home() {
               <div>
                 <h4 className="text-sm font-light tracking-wider text-gray-500 uppercase mb-4">Core Technologies</h4>
                 <ul className="space-y-2 text-gray-400 font-light">
-                  <li>TensorFlow / PyTorch</li>
-                  <li>Kubernetes / Docker</li>
+                  <li>JavaScript / TypeScript</li>
                   <li>React / Next.js</li>
-                  <li>Python / Go / Rust</li>
-                  <li>AWS / GCP / Azure</li>
+                  <li>Node.js / Express</li>
+                  <li>HTML / CSS / Tailwind</li>
+                  <li>Git / GitHub</li>
                 </ul>
               </div>
               
               <div>
                 <h4 className="text-sm font-light tracking-wider text-gray-500 uppercase mb-4">Specializations</h4>
                 <ul className="space-y-2 text-gray-400 font-light">
-                  <li>Large Language Models</li>
-                  <li>Computer Vision</li>
-                  <li>Edge Computing</li>
-                  <li>Real-time Systems</li>
-                  <li>MLOps & AutoML</li>
+                  <li>Responsive Design</li>
+                  <li>Database Design</li>
+                  <li>API Integration</li>
+                  <li>Performance Optimization</li>
+                  <li>Testing & Debugging</li>
                 </ul>
               </div>
             </div>
@@ -289,10 +289,10 @@ export default function Home() {
       <section className="py-32 px-6 border-t border-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl md:text-6xl font-extralight text-white mb-8">
-            Ready to Transform Your Business?
+            Let's Build Something Together
           </h2>
           <p className="text-xl text-gray-400 font-light mb-12 max-w-2xl mx-auto">
-            Let's discuss how AI can unlock new possibilities for your organization.
+            Have a project in mind? I'd love to hear about it and discuss how I can help.
           </p>
           <Link href="/contact" className="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300 text-lg">
             Schedule a Consultation
